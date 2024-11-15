@@ -1,0 +1,22 @@
+{
+    "name": "telex/telex-apm",
+    "description": "A simple APM package for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Telex\\TelexAPM\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^11.31"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Telex\\TelexAPM\\TelexServiceProvider"
+            ]
+        }
+    }
+}
