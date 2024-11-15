@@ -1,6 +1,6 @@
 <?php
 
-namespace Telex\TelexAPM\Services;
+namespace TelexOrg\TelexAPM\Services;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Config;

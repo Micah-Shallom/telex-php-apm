@@ -1,10 +1,10 @@
 <?php
 
-namespace Telex\TelexAPM;
+namespace TelexOrg\TelexAPM;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
-use Telex\TelexAPM\Middleware\MyApmMiddleware;
+use TelexOrg\TelexAPM\Middleware\MyApmMiddleware;
 
 
 

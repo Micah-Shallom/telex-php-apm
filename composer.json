@@ -1,5 +1,5 @@
 {
-    "name": "telex/telex-apm",
+    "name": "telexorg/telex-apm",
     "description": "A simple APM package for Laravel.",
     "type": "library",
     "license": "MIT",
