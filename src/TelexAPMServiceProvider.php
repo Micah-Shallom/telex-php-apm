@@ -4,11 +4,11 @@ namespace TelexOrg\TelexAPM;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
-use TelexOrg\TelexAPM\Middleware\MyApmMiddleware;
+use TelexOrg\TelexAPM\Middleware\TelexAPMMiddleware;
 
 
 
-class MyApmServiceProvider extends ServiceProvider
+class TelexAPMServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
@@ -31,7 +31,7 @@ class MyApmServiceProvider extends ServiceProvider
         ], 'config');
 
         // Register middleware
-        $this->app['router']->pushMiddlewareToGroup('web', MyApmMiddleware::class);
+        $this->app['router']->pushMiddlewareToGroup('web', TelexAPMMiddleware::class);
     }
 }
 

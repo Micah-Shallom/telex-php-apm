@@ -5,7 +5,7 @@ namespace TelexOrg\TelexAPM\Middleware;
 use Closure;
 use TelexOrg\TelexAPM\Services\MetricsService;
 
-class MyApmMiddleware
+class TelexAPMMiddleware
 {
     protected $metricsService;
 
